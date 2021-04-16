@@ -186,7 +186,7 @@ const simulate = function( now ) {
     update_trajectory();
 }
 
-// Gui
+// Gui.
 const gui = new GUI({ width: 300 });
 const earth_gui = gui.addFolder('earth');
 var params = {
